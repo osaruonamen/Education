@@ -1,0 +1,3035 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero .one{
+    position: relative;
+}
+
+.hero .one nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 45%;
+    background-color: rgb(29, 29, 54);
+    width: 100%;
+    height: 140px;
+}
+
+.hero .one nav .first a{
+    color:  rgb(156, 206, 156);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero .one nav .first{
+    font-size: 10px;
+    color: white;
+    font-size: 18px;
+    margin: 0 0 60px 15px;
+    position: absolute;
+}
+
+.hero .one nav .mid{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 40px 0 0 120px;
+    display: inline;
+}
+
+.hero .one nav .mid a{
+    color: rgb(156, 206, 156);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hero .two{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 45%;
+    background-color: white;
+    width: 100%;
+    height: 68px;
+    position: relative;
+}
+
+.hero nav .uni a{
+    color: green;
+    text-decoration: none;
+    padding: 8px 15px 0 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.hero nav .uni{
+    color: gray;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.hero nav .menu{
+    /* position: relative; */
+    display: inline-block;
+}
+
+.hero nav .menubtn{
+    display: inline-block;
+    background-color: white;
+    color: green;
+    text-decoration: none;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+} 
+
+.hero nav .menu-content{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color: white;
+    width: 394px;
+    z-index: 1;
+    right: 0;
+    top: 53px;
+}
+
+.hero nav .menu-content a{ 
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 18px;
+    font-size: 16px;
+} 
+
+.hero nav .menu-content a:hover{
+    color: green;
+} 
+
+.hero nav .menu:hover .menu-content{
+    display: block;
+}
+
+.hero nav .blog-content{
+    display: none;
+    list-style-type: none;
+    background-color: white;
+    z-index: 1;
+    /* right: 0;
+    top: 53px; */
+    padding-left: 40px;
+    /* position: absolute; */
+}
+
+.hero nav .blog:hover .blog-content {
+    /* position: relative; */
+    display: block;
+}
+
+.hero nav .blog-content a{ 
+    color: black;
+    text-decoration: none;
+    padding: 10px 18px;
+    font-size: 15px;
+} 
+
+.hero nav .blog li:hover .blog-content{
+    display: block;
+}
+
+.hero nav .menu-desktop{
+    display: none;
+    list-style-type: none;
+    background-color: transparent;
+}
+
+.hero nav .menu-desktop li{
+    display: inline;
+}
+
+.hero nav .menu-desktop li a{ 
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 30px 18px;
+    font-size: 16px;
+}
+
+.hero nav .menu-desktop li a:hover{ 
+    color: green;
+}
+
+.hero nav .menu-desktop li .blog-cont{
+    display: none;
+    list-style-type: none;
+    background-color: white;
+    z-index: 99;
+    width: 100px;
+    position: absolute;
+    top: 68px;
+    right: 185px;
+}
+
+.hero nav .menu-desktop li .blog-cont a{ 
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 15px;
+} 
+
+.hero nav .menu-desktop li .blog-cont a:hover{
+    color: green;
+}
+
+.hero nav .menu-desktop .blog:hover .blog-cont{
+    display: block;
+}
+
+
+.hero .banner{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* column-gap: 10%; */
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .banner .top{
+    bottom: 345px;
+    position: absolute;
+    margin: 0 0 0 12px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.hero .banner .mid{
+    bottom: 270px;
+    position: absolute;
+    margin: 0 0 0 12px;
+    font-size: 23px;
+    color: white;
+    font-weight: 900;
+}
+
+.hero .banner .txt{
+    bottom: 180px;
+    position: absolute;
+    margin: 0 0 0 12px;
+    font-size: 19px;
+    color: white;
+    line-height: 1.5;
+}
+
+.hero .banner button{
+    position: absolute;
+    bottom: 100px;
+    margin: 0 0 0 12px;
+    padding: 18px 40px;
+    border: none;
+    background-color: rgb(66, 114, 66);
+    font-size: 18px;
+    color: white;  
+}
+
+.hero .teach{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    /* column-gap: 45%; */
+    background-color: peachpuff;
+    height: 900px;
+    width: 425px;
+    position: relative;
+}
+
+.hero .teach img{
+    margin: 70px 8px 0 12px;
+    position: absolute;
+    bottom: 530px;
+}
+
+.hero .teach .top{
+    color: rgb(2, 2, 31);
+    margin: 20px 0 0 12px;
+    font-size: 22px;
+    font-weight: 900;
+    bottom: 440px;
+    position: absolute;
+}
+
+.hero .teach .mid{
+    color: gray;
+    margin: 25px 0 0 12px;
+    font-size: 19px;
+    line-height: 1.5;
+    position: absolute;
+    top: 465px;
+}
+
+.hero .teach .txt{
+    color: green;
+    top: 820px;
+    position: absolute;
+    margin: 0 0 0 12px;
+    font-size: 17px;
+}
+
+.hero .program{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    column-gap: 45%;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .program .top{
+    margin: 75px 0 0 90px;
+    color:  rgb(2, 2, 31);
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.hero .program .mid{
+    margin: 30px 12px 20px 0;
+    top: 100px;
+    position: absolute;
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.5;
+    color: gray;
+}
+
+.hero .programs{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* column-gap: 10%; */
+    justify-content: flex-start;
+    align-items: center; 
+    border: 1px solid rgb(148, 207, 148);
+    margin: 10px 12px 25px 14px;
+    height: 440px;
+    width: 392px;
+    top: 190px;
+}
+
+.hero .programs img{
+    margin: 10px 12px 0 12px;
+    bottom: 255px;
+    position: absolute;
+}
+
+.hero .programs .top{
+    margin: 10px 0 0 21px;
+    color: rgb(2, 2, 31);
+    top: 210px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hero .programs .mid{
+    margin: 10px 0 0 21px;
+    color: rgb(2, 2, 31);
+    font-size: 18px;
+    top: 252px;
+    position: absolute;
+    color: gray;
+}
+
+.hero .programs .txt{
+    color: green;
+    top: 370px;
+    position: absolute;
+    margin: 10px 0 0 21px;
+    font-size: 17px;
+}
+
+.hero .resource{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    column-gap: 45%;
+    background-color:  rgb(235, 235, 247);
+    height: 1100px;
+    width: 425px;
+    position: relative;
+    top: 250px;
+}
+
+.hero .resource .top{
+    margin: 10px 0 0 27px;
+    color: rgb(2, 2, 31);
+    top: 37px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hero .resource .mid{
+    margin: 30px 0 20px 27px;
+    top: 70px;
+    position: absolute;
+    font-size: 19px;
+    line-height: 1.5;
+    color: gray;
+}
+
+.hero .resource .fees{
+    border: 1px solid rgb(148, 207, 148);
+    margin: 10px 27px 20px 27px;
+    height: 260px;
+    position: absolute;
+    top: 210px;
+    width: 365px;
+}
+
+.hero .resource .fees .top{
+    margin: 10px 0 20px 25px;
+    color: rgb(2, 2, 31);
+    top: 15px;
+    position: absolute;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.hero .resource .fees .mid{
+    margin: 10px 0 0 25px;
+    color: rgb(2, 2, 31);
+    top: 50px;
+    position: absolute;
+    font-size: 19px;
+}
+
+.hero .resource .fees .icons{
+    margin: 10px 0 0 25px;
+    color: rgb(148, 207, 148);
+    top: 175px;
+    position: absolute;
+    font-size: 60px;
+}
+
+.hero .resource .fees .icon{
+    margin: 10px 0 0 47px;
+    color: rgb(148, 207, 148);
+    top: 195px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.hero .resource .fees2{
+    border: 1px solid rgb(148, 207, 148);
+    margin: 10px 27px 20px 27px;
+    height: 260px;
+    position: absolute;
+    top: 487px;
+    width: 365px;
+}
+
+.hero .resource .fees2 .top{
+    margin: 10px 0 20px 25px;
+    color: rgb(2, 2, 31);
+    top: 15px;
+    position: absolute;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.hero .resource .fees2 .mid{
+    margin: 10px 0 0 25px;
+    color: rgb(2, 2, 31);
+    top: 50px;
+    position: absolute;
+    font-size: 19px;
+}
+
+.hero .resource .fees2 .icons{
+    margin: 10px 0 0 25px;
+    color: rgb(148, 207, 148);
+    top: 175px;
+    position: absolute;
+    font-size: 60px;
+}
+
+.hero .resource .fees2 .icon{
+    margin: 10px 0 0 47px;
+    color: rgb(148, 207, 148);
+    top: 195px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.hero .resource .fees3{
+    border: 1px solid rgb(148, 207, 148);
+    margin: 10px 27px 20px 27px;
+    height: 260px;
+    position: absolute;
+    top: 765px;
+    width: 365px;
+}
+
+.hero .resource .fees3 .top{
+    margin: 10px 0 20px 25px;
+    color: rgb(2, 2, 31);
+    top: 15px;
+    position: absolute;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.hero .resource .fees3 .mid{
+    margin: 10px 0 0 25px;
+    color: rgb(2, 2, 31);
+    top: 50px;
+    position: absolute;
+    font-size: 19px;
+}
+
+.hero .resource .fees3 .icons{
+    margin: 10px 0 0 25px;
+    color: rgb(148, 207, 148);
+    top: 175px;
+    position: absolute;
+    font-size: 60px;
+}
+
+.hero .resource .fees3 .icon{
+    margin: 10px 0 0 47px;
+    color: rgb(148, 207, 148);
+    top: 195px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.hero .image1 img{
+    margin: 220px 0 50px 0;
+}
+
+.hero .story .top{
+    margin: 10px 0 0 12px;
+    color: rgb(2, 2, 31);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hero .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    position: relative;
+    /* column-gap: 45%; */ 
+}
+
+.hero .images img{
+    margin: 30px 8px 20px 12px;
+    position: absolute;
+    top: 30px;
+}
+
+.hero .images .txt{
+    text-align: center;
+    top: 405px;
+    position: absolute;
+    font-size: 20px;
+    margin: 5px 0 80px 0;
+    color: gray;
+}
+
+.hero .images2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    position: relative;
+    column-gap: 45%; 
+    top: 300px;
+}
+
+.hero .images2 img{
+    margin: 80px 8px 20px 12px;
+    position: absolute;
+    top: 120px;
+}
+
+.hero .images2 .txt{
+    text-align: center;
+    top: 545px;
+    position: absolute;
+    font-size: 20px;
+    margin: 5px 0 60px 0;
+    color: gray;
+}  
+
+.hero .images3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    position: relative;
+    top: 540px;
+    column-gap: 45%; 
+}
+
+.hero .images3 img{
+    margin: 80px 8px 20px 12px;
+    position: absolute;
+    top: 320px;
+}
+
+.hero .images3 .txt{
+    text-align: center;
+    top: 745px;
+    position: absolute;
+    font-size: 20px;
+    margin: 5px 0 60px 0;
+    color: gray;
+}
+
+.hero .line{
+    height: 0.5px;
+    width: 425px;
+    background-color: rgb(210, 210, 218);
+    margin: 1430px 0 30px 0;
+}
+
+.hero .partner{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    column-gap: 45%;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .partner .top{
+    margin: 45px 0 0 125px;
+    color:  rgb(2, 2, 31);
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.hero .partner .mid{
+    margin: 5px 12px 20px 0;
+    top: 100px;
+    position: absolute;
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.5;
+    color: gray;
+}
+
+.hero .picture{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    column-gap: 45%;
+    background-color:  rgba(255, 192, 203, 0.61);
+    height: 250px;
+    width: 425px;
+    position: relative;
+    top: 200px;
+}
+
+.hero .picture img{
+    margin: 0 0 0 85px;
+}
+
+.hero .students{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    column-gap: 45%;
+    background-color:  rgba(4, 71, 4, 0.671);
+    height: 550px;
+    width: 425px;
+    position: relative;
+    top: 200px;
+}
+
+.hero .students .top{
+    margin: 10px 0 20px 28px;
+    color: white;
+    font-weight: 900;
+    font-size: 23px;
+    bottom: 430px;
+    position: absolute;
+}
+
+.hero .students .mid{
+    margin: 5px 10px 20px 28px;
+    top: 120px;
+    position: absolute;
+    font-size: 19px;
+    /* text-align: center; */
+    line-height: 1.5;
+    color: white;
+}
+
+.hero .students .txt{
+    margin: 5px 10px 20px 28px;
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    top: 430px;
+}
+
+.hero footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    /* column-gap: 15%; */
+    background-color: rgb(29, 29, 54);
+    height: 1150px;
+    width: 425px;
+    position: relative;
+    top: 200px;
+}
+
+.hero footer .top1{
+    margin: 10px 0 0 13px;
+    color: white;
+    font-weight: 900;
+    font-size: 23px;
+    bottom: 1060px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.hero footer .top2{
+    margin: 0 0 40px 13px;
+    color: gray;
+    font-size: 16px;
+    bottom: 1002px;
+    position: absolute;
+}
+
+.hero footer .first .top{
+    margin: 0 0 40px 13px;
+    color: white;
+    font-size: 20px;
+    bottom: 925px;
+    position: absolute;
+}
+
+.hero footer .first .mid1{
+    margin: 0 0 0 13px;
+    color: gray;
+    font-size: 17px;
+    bottom: 910px;
+    position: absolute;
+}
+
+.hero footer .first .mid2{
+    margin: 0 0 10px 13px;
+    color: gray;
+    font-size: 17px;
+    bottom: 860px;
+    position: absolute;
+}
+
+.hero footer .first .mid3{
+    margin: 0 0 40px 13px;
+    color: gray;
+    font-size: 17px;
+    bottom: 790px;
+    position: absolute;
+}
+
+.hero footer .first .mid4{
+    margin: 0 0 40px 13px;
+    color: gray;
+    font-size: 17px;
+    bottom: 752px;
+    position: absolute;
+}
+
+.hero footer .second .top{
+    margin: 0 0 40px 13px;
+    color: white;
+    font-size: 20px;
+    bottom: 690px;
+    position: absolute;
+}
+
+.hero footer .second .mid1{
+    margin: 0 0 0 13px;
+    color: gray;
+    font-size: 17px;
+    bottom: 685px;
+    position: absolute;
+}
+
+
+.hero footer .second .mid2{
+    margin: 0 0 10px 13px;
+    color: gray;
+    font-size: 17px;
+    bottom: 640px;
+    position: absolute;
+}
+
+.hero footer .second .mid3{
+    margin: 0 0 40px 13px;
+    color: gray;
+    font-size: 17px;
+    bottom: 575px;
+    position: absolute;
+}
+
+.hero footer .third .top{
+    margin: 0 0 40px 13px;
+    color: white;
+    font-size: 20px;
+    bottom: 505px;
+    position: absolute;
+}
+
+.hero footer .third .mid1{
+    margin: 0 0 0 13px;
+    color: gray;
+    font-size: 16px;
+    bottom: 493px;
+    position: absolute;
+}
+
+.hero footer .third .mid2{
+    margin: 0 0 10px 13px;
+    color: gray;
+    font-size: 17px;
+    bottom: 447px;
+    position: absolute;
+}
+
+.hero footer .third .mid3{
+    margin: 0 0 40px 13px;
+    color: gray;
+    font-size: 17px;
+    bottom: 380px;
+    position: absolute;
+}
+
+.hero footer .news .top{
+    margin: 0 0 40px 13px;
+    color: white;
+    font-size: 20px;
+    bottom: 300px;
+    position: absolute;
+}
+
+.hero footer .news .mid1{
+    margin: 0 0 0 13px;
+    color: gray;
+    font-size: 17px;
+    bottom: 280px;
+    position: absolute;
+}
+  
+.hero footer .news input[type="text"] {
+    width: 360px;
+    padding: 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 200px;
+    margin: 0 0 0 13px;
+    font-size: 17px;
+  }
+  
+.hero footer .news button[type="submit"] {
+    background-color: rgb(16, 100, 16);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 22px 28px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 200px;
+    font-size: 15px;
+    left: 340px;
+}
+
+.hero footer .news .fonticons{
+    margin: 0 0 0 13px;
+    color: white;
+    font-size: 18px;
+    bottom: 160px;
+    position: absolute;
+}
+
+.hero .line2{
+    height: 0.5px;
+    width: 425px;
+    background-color: gray;
+    margin: 980px 0 30px 0;
+    position: absolute;
+}
+
+.hero footer .finals .final{
+    margin: 0 0 0 98px;
+    color: white;
+    font-size: 18px;
+    top: 1080px;
+    position: absolute;
+    text-align: center;
+}
+
+.hero footer .finals .final a{
+    color: rgb(16, 100, 16);
+    text-decoration: none;
+}
+
+/* About page starts here */
+.hero .banner-about .top-about{
+    bottom: 175px;
+    font-size: 25px;
+    font-weight: 950;
+}
+
+.hero .banner-about .txt-about{
+    bottom: 80px;
+}
+
+.hero .resource-about{
+    height: 1250px;
+    top: 2px;
+}
+
+.hero .image1-about img{
+    margin: 80px 0 100px 0;
+}
+/* About page ends here */
+
+/* Programs page starts here */
+.hero .banner-programs .top-programs{
+    bottom: 175px;
+    font-size: 25px;
+    font-weight: 950;
+}
+
+.hero .banner-programs .txt-programs{
+    bottom: 80px;
+}
+/* Programs page stops here */
+
+/* Blog page starts here */
+.hero .banner-blog .top-blog{
+    bottom: 175px;
+    font-size: 25px;
+    font-weight: 950;
+}
+
+.hero .banner-blog .txt-blog{
+    bottom: 80px;
+}
+
+.hero .sample{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    column-gap: 30%;
+    position: relative;
+}
+
+.hero .sample .top{
+    margin: 40px 8px 0 12px;
+    position: absolute;
+    font-size: 25px;
+    top: 30px;
+    color: rgb(2, 2, 31);
+}
+
+.hero .sample .txt{
+    margin: 30px 8px 0 12px;
+    position: absolute;
+    top: 90px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: gray;
+    sup, u, b, sub, s {
+        color: red;
+    }   
+}
+
+.hero .line3{
+    height: 0.5px;
+    width: 425px;
+    background-color: rgb(210, 210, 218);
+    margin: 660px 0 40px 0;
+}
+
+.hero .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button .top{
+    margin: 30px 8px 0 12px;
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+}
+
+.hero .button1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button1 .top1 button{
+    margin: 30px 8px 0 12px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    color: rgb(16, 16, 80);
+    background-color: rgba(245, 245, 245, 0.753);
+}
+
+.hero .button1 .mid1 button{
+    margin: 30px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.hero .button1 .last1 button{
+    margin: 30px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    background-color: rgb(64, 64, 201);
+    color: white;
+}
+
+.hero .button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button2 .top2 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 12px 26px;
+    border: none;
+    background-color: rgb(64, 64, 201);
+}
+
+.hero .button2 .mid2 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    background-color: yellow;
+    color: white;
+}
+
+.hero .button2 .last2 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.hero .button3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero .button3 .top3 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 12px 26px;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.753);
+}
+
+.hero .button3 .mid3 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.753);
+    color: white;
+}
+
+.hero .button4{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button4 .top1 button{
+    margin: 30px 8px 0 12px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    color: white;
+    background-color: rgba(245, 245, 245, 0.753);
+}
+
+.hero .button4 .mid1 button{
+    margin: 30px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+}
+
+.hero .button4 .last1 button{
+    margin: 30px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+}
+
+.hero .button5{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button5 .top2 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 12px 26px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+}
+
+.hero .button5 .mid2 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: 1px solid yellow;
+    background-color: transparent;
+    color: yellow;
+}
+
+.hero .button5 .last2 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+}
+
+.hero .button6{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button6 .top3 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 12px 26px;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.753);
+}
+
+.hero .button6 .mid3 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.753);
+    color: white;
+}
+
+.hero .button7{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button7 .top1 button{
+    margin: 50px 8px 0 12px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 19px;
+    color: rgb(16, 16, 80);
+    background-color: rgba(245, 245, 245, 0.753);
+}
+
+.hero .button7 .mid1 button{
+    margin: 50px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    background-color: red;
+    border-radius: 19px;
+    color: white;
+}
+
+.hero .button7 .last1 button{
+    margin: 50px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 19px;
+    background-color: rgb(64, 64, 201);
+    color: white;
+}
+
+.hero .button8{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button8 .top2 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 19px;
+    border: none;
+    background-color: rgb(64, 64, 201);
+}
+
+.hero .button8 .mid2 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 19px;
+    background-color: yellow;
+    color: white;
+}
+
+.hero .button8 .last2 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 19px;
+}
+
+.hero .button9{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button9 .top3 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 19px;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.753);
+}
+
+.hero .button9 .mid3 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 19px;
+    background-color: rgba(245, 245, 245, 0.753);
+    color: white;
+}
+
+.hero .button10{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button10 .top1 button{
+    margin: 30px 8px 0 12px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    color: white;
+    border-radius: 19px;
+    background-color: rgba(245, 245, 245, 0.753);
+}
+
+.hero .button10 .mid1 button{
+    margin: 30px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+    border-radius: 19px;
+}
+
+.hero .button10 .last1 button{
+    margin: 30px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    border-radius: 19px;
+}
+
+.hero .button11{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button11 .top2 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 12px 26px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    border-radius: 19px;
+}
+
+.hero .button11 .mid2 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: 1px solid yellow;
+    background-color: transparent;
+    color: yellow;
+    border-radius: 19px;
+}
+
+.hero .button11 .last2 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+    border-radius: 19px;
+}
+
+.hero .button12{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button12 .top3 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 12px 26px;
+    border: none;
+    border-radius: 19px;
+    background-color: rgba(245, 245, 245, 0.753);
+}
+
+.hero .button12 .mid3 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 19px;
+    background-color: rgba(245, 245, 245, 0.753);
+    color: white;
+}
+
+.hero .button13{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button13 .top1 button{
+    margin: 40px 8px 0 12px;
+    font-size: 15px;
+    padding: 17px 39px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+
+.hero .button13 .mid1 button{
+    margin: 40px 8px 0 6px;
+    font-size: 15px;
+    padding: 15px 26px;
+    border: none;
+    background-color:  rgb(64, 64, 201);
+    color: white;
+}
+
+.hero .button13 .last1 button{
+    margin: 40px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: none;
+    background-color: rgb(64, 64, 201);
+    color: white;
+}
+
+.hero .button14{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button14 .top2 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 8px 26px;
+    border: none;
+    background-color: rgb(64, 64, 201);
+}
+
+.hero .button14 .mid2 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 6px 28px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.hero .button15{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button15 .top1 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 17px 39px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+}
+
+.hero .button15 .mid1 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 15px 26px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+}
+
+.hero .button15 .last1 button{
+    margin: 15px 8px 0 6px;
+    font-size: 15px;
+    padding: 12px 28px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+}
+
+.hero .button16{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.hero .button16 .top2 button{
+    margin: 13px 8px 0 12px;
+    font-size: 15px;
+    color: white;
+    padding: 8px 26px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+}
+
+.hero .button16 .mid2 button{
+    margin: 13px 8px 0 6px;
+    font-size: 15px;
+    padding: 6px 28px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+}
+
+.hero .line4{
+    height: 0.5px;
+    width: 425px;
+    background-color: rgb(210, 210, 218);
+    margin: 70px 0 40px 0;
+}
+
+.hero .align{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 20px; 
+    padding: 0 12px;
+}
+
+.hero .align .top{
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+    align-self: flex-start;
+}
+
+.hero .align .txt{
+    font-size: 18px;
+    line-height: 1.5;
+    color: gray;
+}
+
+.hero .def{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 20px; 
+    padding: 0 12px;
+}
+
+.hero .def .top{
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+    align-self: flex-start;
+}
+
+.hero .def .mid{
+    font-size: 20px;
+    align-self: flex-start;
+    color: rgb(2, 2, 31);
+}
+
+.hero .def .txt{
+    font-size: 18px;
+    line-height: 1.5;
+    color: gray;
+}
+
+.hero .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px; 
+    padding: 0 12px;
+}
+
+.hero .quote .top{
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+    align-self: flex-start;
+}
+
+.hero .quote .txt{
+    font-size: 18px;
+    line-height: 1.5;
+    color: gray;
+    height: 430px;
+    background-color: rgb(245, 246, 247);
+    border-left: 2px solid red;
+}
+
+.hero .table{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px; 
+    padding: 0 12px;
+}
+
+.hero .table .top{
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+    align-self: flex-start;
+    margin: 0 0 40px 0;
+}
+
+.hero .tables{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* row-gap: 50px;  */
+    padding: 20px 12px;
+    /* height: 500px; */
+    row-gap: 40px;
+    /* width: 600px; */
+    background-color: rgb(245, 246, 247);
+    /* overflow-x: scroll; */
+    /* width: 600px; */
+    overflow-y: hidden;
+
+}
+
+.hero .tables1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 60px; 
+    padding: 0 12px;
+    font-size: 15px;
+    color: blue;
+}
+
+.hero .tables2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 72px; 
+    font-size: 15px;
+    padding: 0 12px 20px;
+    margin-bottom: -30px;
+    border-bottom: 0.1px solid rgba(128, 128, 128, 0.212);
+}
+
+.hero .tables2 .t2 img{
+    margin: 0 10px -8px 0;
+}
+
+.hero .last{
+    border-bottom: 0 solid rgba(128, 128, 128, 0.212);
+}
+
+.hero .tables2 .t4 {
+    height: 4px;
+    
+}
+
+.hero .tables2 .p1 {
+    width: 70px;
+    background-color: blue;
+}
+
+.hero .tables2 .p2 {
+    width: 70px;
+    background-color: rgb(255, 0, 157);
+}
+
+.hero .tables2 .p3 {
+    width: 70px;
+    background-color: rgba(211, 141, 12, 0.753);
+}
+
+.hero .tables2 .p4 {
+    width: 70px;
+    background-color: rgb(0, 255, 85);
+}
+
+.hero .tables2 .p5 {
+    width: 70px;
+    background-color:  rgb(0, 255, 85);
+}
+
+.hero .tables2 .p6 {
+    width: 70px;
+    background-color: blue;
+}
+.hero .tables2 .p7 {
+    width: 70px;
+    background-color: rgb(179, 34, 179);
+}
+
+.hero .tables2 .p8 {
+    width: 70px;
+    background-color: rgb(255, 0, 157);
+}
+
+.hero .gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px; 
+    padding: 0 12px;
+}
+
+.hero .gallery .top{
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+    align-self: flex-start;
+    margin: 10px 0 40px 0;
+}
+
+.hero .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px; 
+    padding: 0 12px;
+}
+
+.hero .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    row-gap: 20px; 
+    padding: 0 12px;
+    font-size: 20px;
+    color: rgb(124, 124, 158);
+}
+
+.hero .unorder{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px; 
+    padding: 0 12px;
+}
+
+.hero .unorder .top{
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+    align-self: flex-start;
+    margin: 15px 0 15px 0;
+}
+
+.hero .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 20px; 
+    padding: 0 12px;
+}
+
+.hero ul li{
+    font-size: 18px;
+    align-self: flex-start;
+    list-style-type: circle;
+}
+
+.hero ul li::marker{
+    color: red;
+    font-size: 38px;
+}
+
+.hero .items{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px; 
+    padding: 0 15px;
+}
+
+.hero ol li{
+    font-size: 18px;
+    align-self: flex-start;
+    list-style-type: decimal-leading-zero;
+    color: rgb(124, 124, 158);
+    line-height: 1.5;
+}
+
+.hero ol li::marker{
+    color: red;
+    /* font-size: 20px; */
+}
+
+.hero .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px; 
+    padding: 0 12px;
+}
+
+.hero .form .top{
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+    align-self: flex-start;
+}
+
+.hero form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 30px;
+    padding: 0 12px;
+}
+
+.hero form input{
+    width: 99%; 
+    height: 60px;
+    background-color:  rgb(236, 236, 243);
+    color: gray;
+    font-size: 22px;
+    border: none; 
+}
+
+.hero .switches{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 45px;
+    padding: 0 12px;
+}
+
+.hero .switches .top{
+    align-self: flex-start;
+    color: gray;
+    font-size: 20px;
+    margin: 30px 0 0 0;
+}
+
+.hero .switches .mid{
+    align-self: flex-start;
+    color: gray;
+    font-size: 20px;
+}
+
+.hero .switches .txt{
+    align-self: flex-start;
+    color: gray;
+    font-size: 20px;
+}
+
+.slider {
+    background-color: #ffffff2b;
+    border-radius: 100px;
+    padding: 1px;
+    margin: 14px;
+    cursor: pointer;
+    left: 80%;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    align-items: center;
+    position: relative;
+    display: block;
+    width: 51px;
+    bottom: 175px;
+    height: 29px;
+    box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, rgba(0, 0, 0, 0.21) 0px 0px 0px 24px inset,
+          #22cc3f 0px 0px 0px 0px inset, rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;
+}
+  
+  .slider::after {
+    content: "";
+    display: flex;
+    top: 2.3px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background-color: #e3e3e3;
+    border-radius: 200px;
+    position: absolute;
+    box-shadow: transparent 0px 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
+    transition: left 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s, background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    will-change: left, background-color;
+  }
+  
+  .switch input[type="checkbox"]:checked + .slider {
+    box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, #22cc3f 0px 0px 0px 2px inset, #22cc3f 0px 0px 0px 24px inset,
+          rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;
+}
+  
+  .switch input[type="checkbox"]:checked + .slider::after {
+    left: 24px;
+}
+  
+  .switch input[type="checkbox"] {
+    display: none;
+  
+}
+
+.slider2{
+    background-color: #ffffff2b;
+    border-radius: 100px;
+    padding: 1px;
+    /* margin: 14px 0 0 20px; */
+    cursor: pointer;
+    left: 83%;
+    /* float: right; */
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    align-items: center;
+    position: relative;
+    display: block;
+    width: 51px;
+    bottom: 150px;
+    height: 29px;
+    box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, rgba(0, 0, 0, 0.21) 0px 0px 0px 24px inset,
+          #cc2230 0px 0px 0px 0px inset, rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;
+}
+  
+  .slider2::after {
+    content: "";
+    display: flex;
+    top: 2.3px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background-color: #e3e3e3;
+    border-radius: 200px;
+    position: absolute;
+    box-shadow: transparent 0px 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
+    transition: left 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s, background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    will-change: left, background-color;
+  }
+  
+  .switch2 input[type="checkbox"]:checked + .slider {
+    box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, #cc2230 0px 0px 0px 2px inset, #cc2230 0px 0px 0px 24px inset,
+          rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;
+}
+  
+  .switch2 input[type="checkbox"]:checked + .slider::after {
+    left: 24px;
+}
+  
+  .switch2 input[type="checkbox"] {
+    display: none;
+  
+}
+
+.slider3{
+    background-color: #ffffff2b;
+    border-radius: 100px;
+    padding: 1px;
+    /* margin: 14px 0 0 20px; */
+    cursor: pointer;
+    left: 83%;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    align-items: center;
+    position: relative;
+    display: block;
+    width: 51px;
+    bottom: 115px;
+    height: 29px;
+    box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, rgba(0, 0, 0, 0.21) 0px 0px 0px 24px inset,
+          #cc2230 0px 0px 0px 0px inset, rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;
+}
+  
+  .slider3::after {
+    content: "";
+    display: flex;
+    top: 2.3px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background-color: #e3e3e3;
+    border-radius: 200px;
+    position: absolute;
+    box-shadow: transparent 0px 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
+    transition: left 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s, background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    will-change: left, background-color;
+  }
+  
+  .switch3 input[type="checkbox"]:checked + .slider {
+    box-shadow: rgba(0, 0, 0, 0.62) 0px 0px 5px inset, #cc2230 0px 0px 0px 2px inset, #cc2230 0px 0px 0px 24px inset,
+          rgba(224, 224, 224, 0.45) 0px 1px 0px 0px;
+}
+  
+  .switch3 input[type="checkbox"]:checked + .slider::after {
+    left: 24px;
+}
+  
+  .switch3 input[type="checkbox"] {
+    display: none;
+}
+
+.hero .checkbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px; 
+    padding: 0 12px;
+}
+
+.hero .checkbox .top{
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+    align-self: flex-start;
+    margin: 30px 0 20px 0;
+}
+
+
+.hero .checkboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 45px;
+    padding: 0 12px;
+}
+
+.hero .checkboxes .top{
+    align-self: flex-start;
+    color: gray;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.hero .checkboxes .mid{
+    align-self: flex-start;
+    color: gray;
+    font-size: 20px;
+}
+
+.hero .checkboxes .txt{
+    align-self: flex-start;
+    color: gray;
+    font-size: 20px;
+}
+
+.check {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 290px;
+    border-radius: 2px;
+    left: 90%;
+    appearance: none;
+    background-color: #bbb;
+    transition: all .3s;
+}
+   
+.check::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: .3em;
+    height: .6em;
+    border-width: 0 .2em .2em 0;
+    z-index: 1;
+    opacity: 0;
+    right: calc(50% - .3em);
+    top: calc(50% - .6em);
+    transform: rotate(0deg);
+    transition: all .3s;
+    transform-origin: center center;
+}
+   
+.check:checked {
+    animation: a .3s ease-in forwards;
+    background-color: rgb(224, 219, 219);
+}
+   
+.check:checked::before {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+   
+ @keyframes a {
+    0% {
+     opacity: 1;
+     transform: scale(1) rotateY(0deg);
+    
+}
+   
+ 50% {
+     opacity: 0;
+     transform: scale(.8) rotateY(180deg);
+}
+   
+ 100% {
+     opacity: 1;
+     transform: scale(1) rotateY(360deg);
+    }
+ }
+
+.check2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 230px;
+    border-radius: 2px;
+    left: 85%;
+    appearance: none;
+    background-color: #bbb;
+    transition: all .3s;
+}
+   
+.check2::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: .3em;
+    height: .6em;
+    border-width: 0 .2em .2em 0;
+    z-index: 1;
+    opacity: 0;
+    right: calc(50% - .3em);
+    top: calc(50% - .6em);
+    transform: rotate(0deg);
+    transition: all .3s;
+    transform-origin: center center;
+}
+   
+.check2:checked {
+    animation: a .3s ease-in forwards;
+    background-color: pink;
+}
+   
+.check2:checked::before {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+   
+ @keyframes a {
+    0% {
+     opacity: 1;
+     transform: scale(1) rotateY(0deg);
+    }
+   
+    50% {
+     opacity: 0;
+     transform: scale(.8) rotateY(180deg);
+    }
+   
+    100% {
+     opacity: 1;
+     transform: scale(1) rotateY(360deg);
+    }
+}
+
+.check3 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 160px;
+    border-radius: 2px;
+    left: 79%;
+    appearance: none;
+    background-color: #bbb;
+    transition: all .3s;
+}
+   
+.check3::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: .3em;
+    height: .6em;
+    border-width: 0 .2em .2em 0;
+    z-index: 1;
+    opacity: 0;
+    right: calc(50% - .3em);
+    top: calc(50% - .6em);
+    transform: rotate(0deg);
+    transition: all .3s;
+    transform-origin: center center;
+}
+   
+.check3:checked {
+    animation: a .3s ease-in forwards;
+    background-color: black;
+}
+   
+.check3:checked::before {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+   
+@keyframes a {
+    0% {
+     opacity: 1;
+     transform: scale(1) rotateY(0deg);
+    }
+   
+    50% {
+     opacity: 0;
+     transform: scale(.8) rotateY(180deg);
+    }
+   
+    100% {
+     opacity: 1;
+     transform: scale(1) rotateY(360deg);
+    }
+}
+
+.check4 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 93px;
+    border-radius: 2px;
+    left: 73%;
+    appearance: none;
+    background-color: #bbb;
+    transition: all .3s;
+}
+
+.check4::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: .3em;
+    height: .6em;
+    border-width: 0 .2em .2em 0;
+    z-index: 1;
+    opacity: 0;
+    right: calc(50% - .3em);
+    top: calc(50% - .6em);
+    transform: rotate(0deg);
+    transition: all .3s;
+    transform-origin: center center;
+}
+   
+.check4:checked {
+    animation: a .3s ease-in forwards;
+    background-color: rgb(224, 219, 219);
+}
+   
+.check4:checked::before {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+   
+ @keyframes a {
+    0% {
+     opacity: 1;
+     transform: scale(1) rotateY(0deg);
+    
+}
+   
+ 50% {
+     opacity: 0;
+     transform: scale(.8) rotateY(180deg);
+}
+   
+ 100% {
+     opacity: 1;
+     transform: scale(1) rotateY(360deg);
+    }
+ }
+
+ .check5 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 30px;
+    border-radius: 2px;
+    left: 67%;
+    appearance: none;
+    background-color: #bbb;
+    transition: all .3s;
+}
+
+.check5::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: .3em;
+    height: .6em;
+    border-width: 0 .2em .2em 0;
+    z-index: 1;
+    opacity: 0;
+    right: calc(50% - .3em);
+    top: calc(50% - .6em);
+    transform: rotate(0deg);
+    transition: all .3s;
+    transform-origin: center center;
+}
+   
+.check5:checked {
+    animation: a .3s ease-in forwards;
+    background-color: rgb(224, 219, 219);
+}
+   
+.check5:checked::before {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+   
+ @keyframes a {
+    0% {
+     opacity: 1;
+     transform: scale(1) rotateY(0deg);
+    
+}
+   
+ 50% {
+     opacity: 0;
+     transform: scale(.8) rotateY(180deg);
+}
+   
+ 100% {
+     opacity: 1;
+     transform: scale(1) rotateY(360deg);
+    }
+}
+
+.hero .radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px; 
+    padding: 0 12px;
+}
+
+.hero .radio .top{
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+    align-self: flex-start;
+    margin: 30px 0 20px 0;
+}
+
+
+.hero .radios{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 45px;
+    padding: 0 12px;
+}
+
+.hero .radios .top{
+    align-self: flex-start;
+    color: gray;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.hero .radios .mid{
+    align-self: flex-start;
+    color: gray;
+    font-size: 20px;
+}
+
+.hero .radios .txt{
+    align-self: flex-start;
+    color: gray;
+    font-size: 20px;
+}
+
+.radiobtn {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 290px;
+    border-radius: 10px;
+    left: 90%;
+    appearance: none;
+    background-color: #bbb;
+    transition: all .3s;
+}
+   
+.radiobtn::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: .3em;
+    height: .6em;
+    border-width: 0 .2em .2em 0;
+    z-index: 1;
+    opacity: 0;
+    right: calc(50% - .3em);
+    top: calc(50% - .6em);
+    transform: rotate(0deg);
+    transition: all .3s;
+    transform-origin: center center;
+}
+   
+.radiobtn:checked {
+    animation: a .3s ease-in forwards;
+    background-color:  rgb(224, 219, 219);
+}
+   
+.radiobtn:checked::before {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+   
+ @keyframes a {
+    0% {
+     opacity: 1;
+     transform: scale(1) rotateY(0deg);
+    
+}
+   
+ 50% {
+     opacity: 0;
+     transform: scale(.8) rotateY(180deg);
+}
+   
+ 100% {
+     opacity: 1;
+     transform: scale(1) rotateY(360deg);
+    }
+ }
+
+ .radiobtn2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 230px;
+    border-radius: 10px;
+    left: 85%;
+    appearance: none;
+    background-color: #bbb;
+    transition: all .3s;
+}
+   
+.radiobtn2::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: .3em;
+    height: .6em;
+    border-width: 0 .2em .2em 0;
+    z-index: 1;
+    opacity: 0;
+    right: calc(50% - .3em);
+    top: calc(50% - .6em);
+    transform: rotate(0deg);
+    transition: all .3s;
+    transform-origin: center center;
+}
+   
+.radiobtn2:checked {
+    animation: a .3s ease-in forwards;
+    background-color: pink;
+}
+   
+.radiobtn2:checked::before {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+   
+ @keyframes a {
+    0% {
+     opacity: 1;
+     transform: scale(1) rotateY(0deg);
+    }
+   
+    50% {
+     opacity: 0;
+     transform: scale(.8) rotateY(180deg);
+    }
+   
+    100% {
+     opacity: 1;
+     transform: scale(1) rotateY(360deg);
+    }
+}
+
+.radiobtn3 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 160px;
+    border-radius: 10px;
+    left: 79%;
+    appearance: none;
+    background-color: #bbb;
+    transition: all .3s;
+}
+   
+.radiobtn3::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: .3em;
+    height: .6em;
+    border-width: 0 .2em .2em 0;
+    z-index: 1;
+    opacity: 0;
+    right: calc(50% - .3em);
+    top: calc(50% - .6em);
+    transform: rotate(0deg);
+    transition: all .3s;
+    transform-origin: center center;
+}
+   
+.radiobtn3:checked {
+    animation: a .3s ease-in forwards;
+    background-color: black;
+}
+   
+.radiobtn3:checked::before {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+   
+@keyframes a {
+    0% {
+     opacity: 1;
+     transform: scale(1) rotateY(0deg);
+    }
+   
+    50% {
+     opacity: 0;
+     transform: scale(.8) rotateY(180deg);
+    }
+   
+    100% {
+     opacity: 1;
+     transform: scale(1) rotateY(360deg);
+    }
+}
+
+.radiobtn4 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 93px;
+    border-radius: 10px;
+    left: 73%;
+    appearance: none;
+    background-color: #bbb;
+    transition: all .3s;
+}
+
+.radiobtn4::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: .3em;
+    height: .6em;
+    border-width: 0 .2em .2em 0;
+    z-index: 1;
+    opacity: 0;
+    right: calc(50% - .3em);
+    top: calc(50% - .6em);
+    transform: rotate(0deg);
+    transition: all .3s;
+    transform-origin: center center;
+}
+   
+.radiobtn4:checked {
+    animation: a .3s ease-in forwards;
+    background-color: rgb(224, 219, 219);
+}
+   
+.radiobtn4:checked::before {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+   
+ @keyframes a {
+    0% {
+     opacity: 1;
+     transform: scale(1) rotateY(0deg);
+    
+}
+   
+ 50% {
+     opacity: 0;
+     transform: scale(.8) rotateY(180deg);
+}
+   
+ 100% {
+     opacity: 1;
+     transform: scale(1) rotateY(360deg);
+    }
+ }
+
+ .radiobtn5 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 30px;
+    border-radius: 10px;
+    left: 67%;
+    appearance: none;
+    background-color: #bbb;
+    transition: all .3s;
+}
+
+.radiobtn5::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: .3em;
+    height: .6em;
+    border-width: 0 .2em .2em 0;
+    z-index: 1;
+    opacity: 0;
+    right: calc(50% - .3em);
+    top: calc(50% - .6em);
+    transform: rotate(0deg);
+    transition: all .3s;
+    transform-origin: center center;
+}
+   
+.radiobtn5:checked {
+    animation: a .3s ease-in forwards;
+    background-color: rgb(224, 219, 219);
+}
+   
+.radiobtn5:checked::before {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+   
+ @keyframes a {
+    0% {
+     opacity: 1;
+     transform: scale(1) rotateY(0deg);
+    
+}
+   
+ 50% {
+     opacity: 0;
+     transform: scale(.8) rotateY(180deg);
+}
+   
+ 100% {
+     opacity: 1;
+     transform: scale(1) rotateY(360deg);
+    }
+}
+
+/* Blog page ends here */
+
+/* Contact page starts here */
+
+.hero .banner-contact .top-contact{
+    bottom: 175px;
+    font-size: 25px;
+    font-weight: 950;
+}
+
+.hero .banner-contact .txt-contact{
+    bottom: 80px;
+}
+
+.hero .touch{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px; 
+    /* padding: 40px 0 0 12px; */
+}
+
+.hero .touch .top{
+    font-size: 25px;
+    color: rgb(2, 2, 31);
+    align-self: flex-start;
+    padding: 60px 0 0 12px;
+    font-weight: 900;
+}
+
+.hero .message{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 20px;
+    width: 94%;
+    height: 180px;
+    margin: 10px 12px 0 12px;
+    border: 1px solid rgb(216, 211, 211);
+}
+
+.hero .message .top{
+    align-self: flex-start;
+    padding: 10px;
+    color: gray;
+}
+
+.hero form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 30px;
+    padding: 30px 12px;
+}
+
+.hero form input{
+    width: 99%; 
+    height: 43px;
+    color: gray;
+    font-size: 15px;
+    text-indent: 12px;
+}
+
+.hero form button{
+    padding: 20px 45px;
+    align-self: flex-start;
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    font-size: 15px;
+}
+
+.hero .conclude{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* row-gap: 30px; */
+    padding: 10px 12px;
+}
+
+.hero .conclude .top{
+    align-self: flex-start;
+    font-size: 17px;
+}
+
+.hero .conclude .top span{
+    color: rgb(180, 173, 173);
+    font-size: 25px;
+    top: 100px;
+}
+
+.hero .conclude .mid{
+    align-self: flex-start;
+    font-size: 17px;
+    margin: 0 0 40px 43px;
+    color: gray;
+}
+
+/* Contact page ends here */
+
+
+@media  screen and (min-width:768px) {
+    
+   .hero nav .menu-desktop{
+        display: none;
+    }
+
+    .hero nav .menubtn{
+        position: absolute;
+        right: 30px;
+        top: 5px;
+    } 
+    
+    .hero .one{
+        width: 768px;
+    }
+
+    .hero .two{
+        width: 768px;
+    }
+
+    .hero .banner img{
+        height: 450px;
+    }
+
+    .hero .teach{
+        width: 100%;
+    }
+
+    .hero .teach img{
+        margin: 70px 8px 0 22px;
+    }
+
+    .hero .teach .top{
+       margin: 20px 0 0 22px;
+    }
+   
+    .hero .teach .mid{
+       margin: 25px 0 0 22px;
+    }
+   
+    .hero .teach .txt{
+       margin: 0 0 0 22px;
+    }
+
+    .hero .program .top{
+        margin: 75px 0 0 240px;
+    }
+
+    .hero .line3{
+        width: 768px;
+    }
+
+    .hero .line4{
+        width: 768px;
+    }
+
+    .hero .programs{
+        width: 94%;
+    }
+
+    .hero .resource{
+        width: 100%;
+    }
+
+    .hero .image1 img{
+        margin: 220px 0 50px 0;
+    }
+
+    .hero .story .top{
+        margin: 10px 0 0 22px;
+    }
+
+    .hero .images img{
+        margin: 30px 8px 20px 22px;
+    }
+    
+    .hero .images .txt{
+        margin: 5px 0 80px 30px;
+    }
+    
+    .hero .images2 img{
+        margin: 80px 8px 20px 22px;
+    }
+    
+    .hero .images2 .txt{
+        margin: 5px 0 60px 30px;
+    }  
+    
+    .hero .images3 img{
+        margin: 80px 8px 20px 22px;
+    }
+    
+    .hero .images3 .txt{
+        margin: 5px 0 60px 30px;
+    }
+
+    .hero .line{
+        width: 768px;
+    }
+
+    .hero .partner .top{
+        margin: 45px 0 0 275px;
+    }
+    
+    .hero .partner .mid{
+        margin: 5px 12px 20px 30px;
+    }
+
+    .hero .picture{
+        width: 100%;
+    }
+
+    .hero .students{
+        width: 100%;
+    }
+
+    .hero footer{
+        width: 100%;
+    }
+
+    .hero .line2{
+        width: 768px;
+    }
+
+    .hero footer .finals .final{
+        margin: 0 0 0 290px;
+    }
+
+    .hero .line3{
+        width: 768px;
+        margin: 500px 0 40px 0;
+    }
+
+}
+
+@media  screen and (min-width:1280px) {
+    .hero nav .menu-desktop{
+        display: block;
+    }
+
+    .hero .one{
+        width: 1280px;
+    }
+    
+    .hero .two{
+        width: 1280px;
+        /* position: fixed; */
+    }
+
+    .hero .teach{
+        width: 100%;
+    }
+
+    .hero .teach img{
+        margin: 70px 8px 0 37px;
+    }
+
+    .hero .teach .top{
+        margin: 20px 0 0 37px;
+    }
+    
+    .hero .teach .mid{
+        margin: 25px 0 0 37px;
+    }
+    
+    .hero .teach .txt{
+        margin: 0 0 0 37px;
+    }
+
+     .hero .program .top{
+        margin: 75px 0 0 500px;
+    } 
+
+    .hero .programs{
+        width: 94%;
+    }
+
+    .hero .resource{
+        width: 100%;
+    }
+
+    .hero .picture{
+        width: 100%;
+    }
+
+    .hero .image1 img{
+        margin: 180px 0 50px 32px;
+    }
+
+    .hero .images img{
+        margin: 30px 0 20px 37px;
+    }
+
+    .hero .image1 img{
+        width: 95%;
+    }
+
+    .hero .story .top{
+        margin: 10px 0 0 35px;
+    }
+    
+    .hero .images .txt{
+        margin: 5px 0 80px 35px;
+    }
+    
+    .hero .images2 img{
+        margin: 80px 8px 20px 37px;
+    }
+    
+    .hero .images2 .txt{
+        margin: 5px 0 60px 35px;
+    }  
+    
+    .hero .images3 img{
+        margin: 80px 8px 20px 37px;
+    }
+    
+    .hero .images3 .txt{
+        margin: 5px 0 60px 35px;
+    }
+
+    .hero .line{
+        width: 1280px;
+    }
+
+    .hero .partner .top{
+        margin: 45px 0 0 550px;
+    }
+
+    .hero .partner .mid{
+        margin: 5px 12px 20px 37px;
+    }
+
+    .hero .students{
+        width: 100%;
+    }
+
+    .hero footer{
+        width: 100%;
+    }
+
+    .hero .line2{
+        width: 1280px;
+    }
+
+    .hero footer .finals .final{
+        margin: 0 0 0 550px;
+    }
+
+    .hero .line3{
+        width: 1280px;
+        margin: 400px 0 40px 0;
+    }
+
+    .hero .line4{
+        width: 1280px;
+    }
+
+    .hero nav .menu{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
